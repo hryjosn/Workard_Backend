@@ -1,0 +1,22 @@
+{
+  "name": "Workard_Backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/johnsonsy/Workard_Backend.git",
+  "author": "Johnson <jo74705@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/app.ts",
+    "start": "tsc && node build/app"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.1.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.4"
+  }
+}
